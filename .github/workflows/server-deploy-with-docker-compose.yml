@@ -44,4 +44,4 @@ jobs:
 
           sudo docker pull kishinoa/ordersystem:latest
         
-          sudo docker-compose up -d --orce-recreate myordersystem
+          sudo docker-compose up -d --force-recreate myordersystem
